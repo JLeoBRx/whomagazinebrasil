@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Who Magazine (DWM) Brasil</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin: 50px auto;
+            width: 80%;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #FFD700;
+            font-size: 1.2em;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: 0.3s;
+            display: inline-block;
+        }
+
+        a:hover {
+            background: rgba(255, 255, 255, 0.4);
+            color: white;
+        }
+
+        .mural {
+            margin-top: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+
+        .mural h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .mural-posts {
+            margin-top: 20px;
+        }
+
+        .mural-posts div {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Doctor Who Magazine (DWM) Brasil</h1>
+        <p>Escolha uma edição para visualizar:</p>
+        <ul id="issues-list">
+            <li><a href="issue.html?issue=1">Edição 612 (Jan/2025)</a></li>
+        </ul>
+    </div>
+
+    <div class="container mural">
+        <h2>Mural de Atualizações</h2>
+        <div class="mural-posts">
+            <div><strong>📢 Status:</strong> A edição 612 está **12.5% finalizada**. Tradução em andamento!</div>
+            <div><strong>🛠️ Objetivo:</strong> Traduzir todas as edições de 2025.</div>
+            <div><strong>✍️ Nota do Editor:</strong> Em breve mais novidades!</div>
+            <div><strong>📩 Contato:</strong> jleodoctorwho@gmail.com</div>
+        </div>
+    </div>
+</body>
+</html>
